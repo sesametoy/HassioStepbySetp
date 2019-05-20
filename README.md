@@ -42,8 +42,9 @@ curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/maste
 
 Command line arguments
 argument	default	description
--m | --machine		On a special platform they need set a machine type use
+
 -d | --data-share	/usr/share/hassio	data folder for hass.io installation
+
 you can set these parameters by appending -- <parameter> <value> like:
 ```
 curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh | bash -s -- -m MY_MACHINE
