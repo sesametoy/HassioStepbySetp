@@ -34,7 +34,7 @@ sudo systemctl start docker
 ```
 sudo apt-get install bash jq avahi-daemon dbus apparmor-utils network-manager
 ```
-# install hassio
+# install hassio refer to https://github.com/home-assistant/hassio-installer
 ```
 sudo su
 curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh | bash -s
