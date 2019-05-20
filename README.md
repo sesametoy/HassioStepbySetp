@@ -47,5 +47,5 @@ argument	default	description
 
 you can set these parameters by appending -- <parameter> <value> like:
 ```
-curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh | bash -s -- -m MY_MACHINE
+curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh | bash -s -- -d MY_FOLDER
 ```
